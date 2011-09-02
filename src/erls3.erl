@@ -8,7 +8,7 @@
 -module(erls3).
 
 -behaviour(application).
--define(TIMEOUT, 15000).
+-define(TIMEOUT, 900000).
 -define(MAX_RETRIES, 6).
 %%--------------------------------------------------------------------
 %% External exports
